@@ -174,12 +174,12 @@ function initializePortfolioTabs() {
 
 (function () {
     // apply dark theme is set
-    if (isDarkTheme()) {
-        toggleTheme("dark");
-    }
+    // if (isDarkTheme()) {
+    //     toggleTheme("dark");
+    // }
 
     // populate the theme switcher icon
-    populateThemeSwitcherIcon();
+    //populateThemeSwitcherIcon();
 
     // toggle theme on theme changer button click
     document.querySelectorAll('[data-toggle="theme"]').forEach(function (element) {
