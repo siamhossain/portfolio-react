@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import './Static/StyleSheets/header.css';
+import './Static/StyleSheets/fonts.css';
+import './Static/StyleSheets/theme.css';
 import Home from "./Pages/Home/Home";
 import BlogList from "./Pages/BlogList/BlogList";
 import BlogDetails from "./Pages/BlogDetails/BlogDetails";
