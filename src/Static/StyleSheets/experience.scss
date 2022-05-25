@@ -1,0 +1,305 @@
+/* Experience*/
+
+.experience-section {
+  background: var(--primary-color);
+  padding: 60px 0;
+
+  @media only screen and (max-width: 500px) {
+    .responsive-container {
+      padding: 0 25px;
+    }
+  }
+
+  .section-heading {
+    text-align: center;
+
+    h1 {
+      font-size: 37px;
+      font-family: "Inter-Bold";
+      color: var(--section-headline-color);
+      line-height: 0.675;
+      margin-bottom: 20px;
+
+      @media only screen and (max-width: 500px) {
+        font-size: 25px;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      font-family: "Inter-Regular";
+      color: var(--text-color);
+      line-height: 1.563;
+    }
+  }
+
+  .pad {
+    padding-top: 100px;
+    @media only screen and (max-width: 992px) {
+      padding-top: 0;
+    }
+  }
+
+  .experience-card-area {
+    margin-top: 100px;
+    position: relative;
+
+
+
+    @media only screen and (max-width: 992px) {
+      margin-top: 0;
+    }
+    @media only screen and (max-width: 600px) {
+      .g-5, .gx-5 {
+        --bs-gutter-x: 0 !important;
+      }
+    }
+
+    .gutter-pad {
+      padding-left: 50px !important;
+    }
+
+    .test {
+      i {
+        font-size: 40px;
+        width: 64px;
+        height: 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -63px;
+        //color: #00cf5d;
+        //border: 1px dashed #00cf5d;
+      }
+
+      @media only screen and (max-width: 992px) {
+        display: none;
+      }
+    }
+    .green {
+      i {
+        color: #00cf5d;
+        border: 1px dashed #00cf5d;
+      }
+    }
+
+    .progress-bar {
+      background: #cecece;
+      width: 6px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      .experience-card-info {
+        position: absolute;
+        top: 0;
+        i {
+          color: red !important;
+        }
+      }
+
+      @media only screen and (max-width: 992px) {
+        display: none;
+      }
+    }
+
+    .experience-card {
+      border-radius: 10px;
+      background-color: var(--mobile-sidebar-bg-color);
+      box-shadow: 0px 5px 35.28px 13.72px rgba(0, 0, 0, 0.04);
+      padding: 30px 20px 35px 30px;
+      display: flex;
+      margin-bottom: 25px;
+      position: relative;
+      margin-top: 40px;
+
+      @media only screen and (max-width: 400px) {
+        display: block;
+      }
+
+      .pointer-left {
+        top: 10px;
+        left: -40px;
+      }
+      .pointer-right {
+        top: 10px;
+        right: -40px;
+      }
+
+      .green-top {
+        color: #00cf5d;
+      }
+
+      .light-pink {
+        color: #ff5cad;
+      }
+      .light-orange {
+        color: #ffa397;
+      }
+      .light-green {
+        color: #81b441;
+      }
+      .light-purple {
+        color: #d697c2;
+      }
+
+      .light-pink-bg {
+        background: #ff5cad;
+      }
+      .light-orange-bg {
+        background: #ffa397;
+      }
+      .light-green-bg {
+        background: #81b441;
+      }
+      .light-purple-bg {
+        background: #d697c2;
+      }
+
+      .light-pink-border {
+        border: 1px dashed #ff5cad;
+      }
+      .light-orange-border {
+        border: 1px dashed #ffa397;
+      }
+      .light-green-border {
+        border: 1px dashed #81b441;
+      }
+      .light-purple-border {
+        border: 1px dashed #d697c2;
+      }
+
+      .dribble {
+        //top: 10px;
+        //left: -40px;
+        border: 1px dashed #ff5cad;
+      }
+      .ui-designer {
+        //top: 10px;
+        //right: -40px;
+        border: 1px dashed #ffa397;
+      }
+      .envato {
+        top: 10px;
+        left: -40px;
+        border: 1px dashed #81b441;
+      }
+      .behance {
+        top: 10px;
+        right: -40px;
+        border: 1px dashed #d697c2;
+      }
+
+      .pointer {
+        padding: 5px;
+        background: transparent;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: absolute;
+
+        @media only screen and (max-width: 992px) {
+          display: none;
+        }
+
+
+
+        .circle-color-dribble {
+          background: #ff5cad;
+        }
+        .circle-color-ui-designer {
+          background: #ffa397;
+        }
+        .circle-color-envato {
+          background: #81b441;
+        }
+        .circle-color-behance {
+          background: #d697c2;
+        }
+
+        .circle {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+
+          .year-right {
+            right: -95px !important;
+          }
+          .year-left {
+            left: -95px !important;
+          }
+
+          h6 {
+            position: absolute;
+            font-size: 16px;
+            font-family: "Inter-Bold";
+            color: var(--section-headline-color) !important;
+          }
+        }
+      }
+
+      .experience-card-icon {
+        i {
+          font-size: 40px;
+          margin-right: 20px;
+          width: 64px;
+          height: 64px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+        }
+
+        i.light-pink {
+          color: #ff5cad;
+          border: 1px dashed #ff5cad;
+        }
+        i.light-orange {
+          color: #ffa397;
+          border: 1px dashed #ffa397;
+        }
+        i.light-green {
+          color: #81b441;
+          border: 1px dashed #81b441;
+        }
+        i.light-purple {
+          color: #d697c2;
+          border: 1px dashed #d697c2;
+        }
+      }
+
+      .experience-card-info {
+        h4 {
+          font-size: 21px;
+          font-family: "Inter-Bold";
+          color: var(--section-headline-color);
+          line-height: 1.667;
+        }
+
+        p.designation {
+          font-size: 16px;
+          font-family: "Inter-Regular";
+          color: var(--text-color);
+          line-height: 1.667;
+        }
+
+        p {
+          font-size: 16px;
+          font-family: "Inter-Regular";
+          color: rgb(122, 124, 143);
+          line-height: 1.563;
+        }
+      }
+    }
+  }
+
+}
+
+/* Experience End */
